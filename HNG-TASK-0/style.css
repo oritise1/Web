@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 15px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header .h1text {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.sect {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.sectInfo {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.sect h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.sect p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.sect a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.sect a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+.social-links a {
+  text-decoration: none;
+  color: #000;
+}
+.social-link {
+  background-color: #0073e6;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.social-link:hover {
+  background-color: #005bb5;
+}
+
+.displayImg {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.currentStatus {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.currentStatus p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.footer .copy {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  header .h1text {
+    font-size: 2rem;
+  }
+
+  .sectInfo {
+    font-size: 1.5rem;
+  }
+
+  .sect h2 {
+    font-size: 1.3rem;
+  }
+
+  .sect p {
+    font-size: 0.9rem;
+  }
+
+  .social-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .social-link {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  header .h1text {
+    font-size: 1.8rem;
+  }
+
+  .sectInfo {
+    font-size: 1.3rem;
+  }
+
+  .sect h2 {
+    font-size: 1.2rem;
+  }
+
+  .sect p {
+    font-size: 0.85rem;
+  }
+
+  .footer .copy {
+    font-size: 0.8rem;
+  }
+}

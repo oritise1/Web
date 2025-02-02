@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" type="script"></script>
+    <script src="script.js"></script>
+    <meta name="theme-color" content="#000000" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>My Profile Card</title>
 </head>
+
 <body>
-    
+    <header>
+        <h1 class="h1text" style="text-align: center">Welcome To My Profile Card</h1>
+    </header>
+    <section class="sect">
+        <h2 class="sectInfo">
+            Profile Infomation
+        </h2>
+        <h2>
+            Full Name:<span data-testid="fullName" class="fullName">Ibrahim Abdulkareem
+            </span>
+        </h2>
+        <p data-testid="jobTitle"><span>Frontend Developer</span></p>
+        <p>Email: <a href="mailto:ikareemabiodun730@gmail.com" rel="noreferrer" target="_blank"
+                data-testid="slackEmail">ikareemabiodun730@gmail.com</a></p>
+        <p data-testid="socialLinks">Social Links</p>
+        <div class="social-links">
+            <a href="https://twitter.com/oritse__success" target="_blank" rel="noreferrer" class="social-link">
+                Twitter
+            </a>
+            <a href="https://github.com/oritise1" target="_blank" rel="noreferrer" class="social-link">
+                GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/ibrahim-abdulkareem-9530161a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noreferrer" class="social-link">
+                LinkedIn
+            </a>
+        </div>
+        <img src="image.jpg" alt="no image" data-testid="slackProfilePicture" class="displayImg" />
+        <p data-testid="shortBio">
+            I am an enthusiastic Nigerian based in Lagos, currently pursuing my passion for frontend development. When I'm not coding or debugging, you'll find me immersed in video games, particularly enjoying strategic RPGs and competitive multiplayer games. I'm also an avid movie enthusiast who appreciates everything from thrilling action sequences to compelling storylines in sci-fi films. My background in science has shaped my analytical approach to problem-solving, which I now apply to creating seamless web experiences. I balance my coding journey with gaming sessions to unwind and stay creative, while keeping up with the latest tech trends and web development practices.</p>
+    </section>
+    <section class="currentStatus">
+        <p>Current Location: <span data-testid="currentLocation">Ebute-Metta, Lagos State</span></p>
+        <p id="time">Time (UTC): <span data-testid="currentTimeUTC"></span></p>
+    </section>
+
+    <footer class="footer">
+        <p class='copy'> Copyright &copy; 2025 Oritse. All Rights Reserved</p>
+    </footer>
 </body>
+
 </html>
