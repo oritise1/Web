@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+
     const colorBox = document.querySelector('[data-testid="colorBox"]');
     const colorOptions = document.querySelectorAll('[data-testid="colorOption"]');
     const gameStatus = document.querySelector('[data-testid="gameStatus"]');
